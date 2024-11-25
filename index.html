@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./js/index.js"></script>
+    <link rel="stylesheet" href="./css/index.css" />
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <div class="container">
+                <div class="nav__wrapper flex justify-between items-center px-[20px] py-[10px]">
+                    <div class="nav__logo">
+                        <img src="./assets/icons/nav__logo.svg" alt="logo">
+                    </div>
+                    <ul class="nav__list hidden largetablet:flex largetablet:gap-[40px] largetablet:items-center">
+                        <li class="nav__list__item hover:text-[#AE7B3C] duration-300">
+                            <a href="">
+                                <span>Напрямки</span>
+                            </a>
+                        </li>
+                        <li class="nav__list__item hover:text-[#AE7B3C] duration-300">
+                            <a href="">
+                                <span>Про компанію</span>
+                            </a>
+                        </li>
+                        <li class="nav__list__item hover:text-[#AE7B3C] duration-300">
+                            <a href="">
+                                <span>Переваги</span>
+                            </a>
+                        </li>
+                        <li class="nav__list__item hover:text-[#AE7B3C] duration-300">
+                            <a href="">
+                                <span>Етапи роботи</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="nav__links hidden tablet:flex tablet:gap-[15px] tablet:items-center">
+                        <img src="./assets/icons/nav__link__instagramm.svg" alt="Instagramm">
+                        <img src="./assets/icons/nav__link__facebook.svg" alt="Facebook">
+                    </div>
+                    <button class="nav__number hidden tablet:flex tablet:gap-[7px] tablet:items-center hover:text-[#AE7B3C] duration-300">
+                        <img src="./assets/icons/nav__phone.svg" alt="">
+                        <a href="tel:+380676615415">+380 67661 5415</a>
+                    </button>
+                    <div class="nav__items__menu largetablet:hidden">
+                        <button>
+                            <img src="./assets/icons/nav__items__menu.svg" alt="items-menu">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero__wrapper text-center m-auto py-[70px] w-[320px] bg-no-repeat tablet:w-[640px] largetablet:w-[1000px] desktop:w-[1240px]">
+                    <h1 class="hero__title text-[38px] font-bold text-white">
+                        виробництво <br> меблів
+                    </h1>
+                    <p class="hero__info text-[16px] text-white mt-[28px] mb-[52px]">
+                        Ми виконуємо комплексне <br>
+                        виготовлення корпусних меблів для <br>
+                        житлових і комерційних приміщень, <br>
+                        забезпечимо Вас якісним меблевим <br>
+                        продуктом власного виробництва. 
+                    </p>
+                    <a class="hero__btn text-white font-bold py-[22px] px-[72px] bg-[#AE7B3C] hover:text-[#AE7B3C] hover:bg-white duration-300" href="">
+                        Обговорити проект
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="intro">
+            <div class="container">
+                <h1 class="intro__title text-[46px] from-neutral-600 text-center mt-[140px]">
+                    Основні напрямки
+                </h1>
+                <div class="intro__wrapper largetablet:flex largetablet:gap-[20px] largetablet:justify-center tablet:block tablet:flex tablet:flex-wrap">
+                    <div class="card  mt-[80px] largetablet:border-l-[2px] border-gray-500 tablet:border-l-[2px]">
+                        <p class="card__sub-title text-[24px] from-neutral-600 text-gray-500 ml-[20px] mb-[60px]">
+                            01
+                        </p>
+                        <h1 class="card__title text-[24px] ml-[20px] mb-[54px]">
+                            Дизайн інтерєру
+                        </h1>
+                        <img src="./assets/images/card__img.png" alt="" class="card__img px-[20px]">
+                    </div>
+                    <div class="card mt-[80px] largetablet:border-l-[2px] border-gray-500 tablet:border-l-[2px]">
+                        <p class="card__sub-title text-[24px] from-neutral-600 text-gray-500 ml-[20px] mb-[60px]">
+                            02
+                        </p>
+                        <h1 class="card__title text-[24px] ml-[20px] mb-[54px]">
+                            Виробництво меблів
+                        </h1>
+                        <img src="./assets/images/card__img3.png" alt="" class="card__img px-[20px] h-[235px]">
+                    </div>
+                    <div class="card mt-[80px] largetablet:border-x-[2px] border-gray-500 tablet:ml-[20px] tablet:border-l-[2px]">
+                        <p class="card__sub-title text-[24px] from-neutral-600 text-gray-500 ml-[20px] mb-[60px]">
+                            03
+                        </p>
+                        <h1 class="card__title text-[24px] ml-[20px] mb-[54px]">
+                            Комплексне <br> меблювання
+                        </h1>
+                        <img src="./assets/images/card__img2.png" alt="" class="card__img px-[20px] w-[260px] h-[235px] mt-[-40px]">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="options pt-[140px]">
+            <div class="container bg-[#3D4A39]">
+                <h1 class="options__title text-[46px] from-neutral-600 text-white text-center pt-[100px]">
+                    Ми забезпечемо вас 
+                </h1>
+                <div class="options__wrapper flex flex-wrap gap-[100px] tablet:gap-[150px] desktop:gap-[215px] justify-center mt-[75px]">
+                    <img class="w-[150px]" src="./assets/icons/options__img1.svg" alt="">
+                    <img class="w-[150px]" src="./assets/icons/options__img2.svg" alt="">
+                    <img class="w-[150px]" src="./assets/icons/options__img3.svg" alt="">
+                    <img class="w-[150px]" src="./assets/icons/options__img4.svg" alt="">
+                    <img class="w-[150px]" src="./assets/icons/options__img5.svg" alt="">
+                    <img class="w-[150px]" src="./assets/icons/options__img6.svg" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section class="project">
+            <div class="container">
+                <h1 class="project__title mt-[140px] text-[20px] from-neutral-600 text-center tablet:text-[28px]">
+                    Проект Рінго Україна - створений виконувати <br>
+                    об`єктні задачі комплексного меблювання <br>
+                    житлових та комерційних приміщень. 
+                </h1>
+                <div class="project__wrapper justify-center border-y-[2px] py-[30px] mt-[50px] tablet:flex tablet:gap-[59px] tablet:items-center">
+                    <div class="project__info flex gap-[15px] justify-center border-b-[2px] pb-[30px] tablet:pb-0 tablet:border-none tablet:text-[18px]">
+                        <img class="mt-[-70px] tablet:mt-[-160px] tablet:w-[18px]  largetablet:mt-[-80px]" src="./assets/icons/project.svg" alt="">
+                        <p class="from-neutral-500">
+                            Наш колектив націлений на результат - <br>
+                            вчасно реалізувати проект на найвищому <br>
+                            рівні. Ми забезпечуємо спокій замовника <br>
+                            та вирішуємо будь-які задачі
+                        </p>
+                    </div>
+                    <div class="project__info flex gap-[15px] justify-center pt-[30px] tablet:pt-0  tablet:text-[18px] tablet:border-l-[2px] tablet:pl-[30px]">
+                        <img class="mt-[-70px] tablet:mt-[-160px] tablet:w-[18px] largetablet:mt-[-80px]" src="./assets/icons/project.svg" alt="">
+                        <p class="from-neutral-500">
+                            Рінго найкращий підрядник прораба, <br>
+                            дизайнера, проект-менеджера або <br>
+                            персональний помічник власника бізнесу, <br>
+                            квартири чи салону
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,16 @@
+.container{
+    border: 1px;
+}
+
+.hero__wrapper{
+    background-image: url(/assets/images/hero__img.png);
+    background-repeat: no-repeat;
+    background-position: 65%;
+    width: 100%;
+}
+
+.card{
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
